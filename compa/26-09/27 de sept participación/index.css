@@ -1,0 +1,156 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background: rgb(255, 255, 255);
+}
+
+
+header{
+    width: 90%;
+	max-width: 1700px;
+	margin: 20px auto;
+    height: 30px;
+    display: grid;
+    background-image: url(images/fuego1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+header div h1{
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+header div{
+    height: 90%;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+header img{
+    height: 100%;
+    background: none;
+}
+main{
+    height: auto;
+    display: grid;
+    width: 100%;
+    align-items: center;
+    justify-items: center;
+}
+.contenido{
+    background: rgb(255, 255, 255);
+    width: 90%;
+    max-width: 1700px;
+    text-align: center;
+    display: flex;
+}
+.contenido .caja{
+    display: grid;
+    margin: 5px;
+    background: rgba(0, 21, 77, 0.637);
+    align-items: center;
+    justify-content: center;
+}
+.contenido .caja img{
+    width: 100%;
+}
+.contenido .caja div h2{
+    color: white;
+    font-size: 13px;
+    padding: 5px;
+    text-shadow: 1px 1px 6px black;
+}
+.contenido .caja div p{
+    color: white;
+    text-align: justify;
+    font-size: 12px;
+    padding: 5px;
+}
+@media(min-width:800px){
+    header{
+        height: 200px;
+        grid-template-columns: 40% 60%;
+        grid-template-rows: 100%;
+    }
+    header div h1{
+        font-size: 24px;
+        text-shadow: 6px 6px 12px black;
+    }
+    .contenido .caja{
+        grid-template-columns: 40% 60%;
+    }
+    .contenido .caja div h2{
+        font-size: 16px;
+    }
+    .contenido .caja div p{
+        font-size: 11px;
+        padding: 5px;
+    }
+}
+@media(min-width:975px){
+    header{
+        height: 200px;
+        grid-template-columns: 40% 60%;
+        grid-template-rows: 100%;
+    }
+    header div h1{
+        font-size: 32px;
+        text-shadow: 6px 6px 12px black;
+    }
+    .contenido .caja{
+        grid-template-columns: 40% 60%;
+    }
+    .contenido .caja div h2{
+        font-size: 22px;
+    }
+    .contenido .caja div p{
+        font-size: 14px;
+        padding: 5px;
+    }
+}
+@media(min-width:1000px){
+    header{
+        height: 200px;
+        grid-template-columns: 40% 60%;
+        grid-template-rows: 100%;
+    }
+    header div h1{
+        font-size: 34px;
+        text-shadow: 6px 6px 12px black;
+    }
+    .contenido .caja{
+        grid-template-columns: 40% 60%;
+    }
+    .contenido .caja div h2{
+        font-size: 27px;
+    }
+    .contenido .caja div p{
+        font-size: 18px;
+        padding: 5px;
+    }
+}
+@media(min-width:1475px){
+    header{
+        height: 200px;
+        grid-template-columns: 40% 60%;
+        grid-template-rows: 100%;
+    }
+    header div h1{
+        font-size: 55px;
+        text-shadow: 6px 6px 12px black;
+    }
+    .contenido .caja{
+        grid-template-columns: 40% 60%;
+    }
+    .contenido .caja div h2{
+        font-size: 35px;
+    }
+    .contenido .caja div p{
+        font-size: 25px;
+        padding: 5px;
+    }
+}

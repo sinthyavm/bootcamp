@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+}
+.recontenedor{
+    height: 250px;
+    width: 250px;
+    padding: 50px;
+    margin: auto;
+    background-color: rgb(194, 89, 168);
+    border: 1px solid;
+    text-align: center;
+    border-radius: 15px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.contenedor{
+    width: 270px;
+    height: 0;
+    /*background-color: rgb(255, 255, 255);*/
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    overflow: hidden;
+    transition-property: height;
+    transition-duration: 1000ms;
+}
+
+.recontenedor:hover .contenedor{
+    height: 250px;
+}
+
+img{
+    width: 230px;
+    align-items: center;
+}

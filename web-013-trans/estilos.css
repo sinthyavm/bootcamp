@@ -1,0 +1,34 @@
+.contenedor{
+    border: 1px solid;
+    height: 32px;
+    border-radius: 16px;
+    overflow: hidden;
+}
+.barra{
+    height: 100%;
+    width: 10%;
+    background-color: green;
+    transition-property: width;
+    transition-duration: 1000ms;
+    transition-delay: 500ms;
+    
+}
+
+.contenedor:hover .barra{
+    width: 100%;
+}
+
+
+
+
+/*width: 100px;
+height: 100px;
+background-color: rgb(70, 70, 70);
+transition-property: background-color, width;
+transition-duration: 1000ms, 2000ms;
+transition-delay: 0, 1000ms;
+transition-timing-function: cubic-bezier(0,.98,98,01);
+.contenedor:hover{
+    background-color: red;
+    width: 100%;
+}/*

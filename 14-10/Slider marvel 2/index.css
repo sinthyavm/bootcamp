@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: black;
+}
+header{
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    position: sticky;
+    top: 0;
+}
+header img{
+    width: 1000px;
+}
+.propaganda{
+    margin: auto;
+    margin-left: 90px;
+    position: sticky;
+    top: 185px;
+}
+.propaganda .slider{
+    width: 215px;
+    margin: 0;
+    overflow: hidden;
+    position: absolute;
+}
+.slider ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: cambio 10s infinite;
+}
+@keyframes cambio{
+
+    0% {margin-left: 0;}
+    6% {margin-left: 0;}
+
+    27% {margin-left: -100%;}
+    48% {margin-left: -100%;}
+
+    54% {margin-left: -200%;}
+    75% {margin-left: -200%;}
+
+    81% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+}
+.slider li{
+    width: 100%;
+}
+.slider img{
+    width: 100%;
+}
+.menu{
+    background: linear-gradient(180deg, rgba(255,0,0,1) 0%, rgba(0,0,0,0.700717787114846) 50%, rgba(255,0,0,1) 100%);
+    width: 1010px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    position: sticky;
+    top: 185px;
+}
+.boton{
+    color: white;
+    font-size: 16px;
+    background: none;
+    border: none;
+    padding: 3px 10px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+.menu .boton:hover{
+    color: rgb(56, 65, 184);
+}
+.elementos{
+    border-style: groove;
+    border-color: yellow;
+    background: rgb(167, 165, 165);
+    width: 1000px;
+    margin: auto;
+    
+}
+.elementos .titulo{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    color: #873322;
+    padding: 10px 25px;
+}
+.elementos .contenido{
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.elementos .contenido img{
+    width: 150px;
+    padding: 5px 15px;
+}
+.elementos .contenido p{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:  black;
+    padding: 25px 10px;
+}
+.fila{
+    scroll-margin-top: 50px;
+}
+.baja{
+    width: 900px;
+}
+.baja img{
+    width: 1000px;
+}

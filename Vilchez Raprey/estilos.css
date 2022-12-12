@@ -1,0 +1,237 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+h1{ font-size: 3.em;}
+h1{ font-size: 3.em;}
+h1{ font-size: 3.em;}
+p{ font-size: 1.25em;}
+ul{ list-style: none;}
+li{ font-size: 1.25em;}
+
+button{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 12px;
+    border: 2px solid rgb(0, 0, 0, 0, 5);
+    box-shadow: 2px 2px10px rgb(153, 153, 153);
+    color: white;
+    background-color: rgb(29, 112, 12);
+}
+
+button:hover{
+    background-color: rgb(21, 85, 8);
+}
+
+.conteiner{
+    max-width: 1400px;
+    margin: auto;
+}
+.color-acento{color: rgb(21, 85, 8);}
+
+header{
+    width: 100%;
+    height: 60px;
+    background: rgb(184, 182, 182);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .logo{
+    position: absolute;
+    padding: 20px 50px;
+    
+}
+
+.conteiner img{
+    width: 40px;
+    height: 40px;
+}
+header .conteiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+header a:hover{
+    color: rgb(21, 85, 8);
+}
+
+#hero{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 98vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ),
+    
+    url(participacion/images/ambiente3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}   
+#hero h1 {
+    color: white;
+}
+#branding .conteiner{
+    text-align: center;
+    padding: 200px 12px;
+}
+#servicios{
+    background-color: rgb(6, 6, 6);
+    color: white;
+    text-align: center;
+}
+
+#servicios .conteiner{
+    padding: 150px 12px;
+}
+#servicios h2{
+    margin-top: 0;
+    /*font-size: 3.2em;*/
+}
+#servicios p{
+    display: none;
+}
+#servicios .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+    margin: 30px;
+    border-radius: 15px;
+}
+.carta:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ),
+    url(participacion/images/Manual-identidad-icbrg-blog.jpg);
+}
+
+.carta:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ),
+    url(participacion/images/diseño\ web1.jpg);
+}
+.carta:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ),
+    url(participacion/images/comunity\ manager.jpg);
+}
+
+
+
+#exito{
+    background-color: rgb(83, 83, 83);
+    color: white;
+    text-align: center;
+}
+#exito .conteiner2{
+    padding: 150px 12px;
+}
+#exito h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+#exito p{
+    display: none;
+}
+#exito .carta2{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+    margin: 30px;
+    border-radius: 15px;
+}
+.carta2:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ),
+    url(participacion/images/f-new1.jpg);
+}
+
+.carta2:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ),
+    url(participacion/images/f-new2.jpg);
+}
+.carta2:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ),
+    url(participacion/images/f-new3.jpg);
+}
+
+
+footer{
+    background-color: white;
+}
+footer p{
+    margin: 0;
+    padding: 12px;
+    color: rgb(100, 100, 100);
+}
+footer ,.conteiner3{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+}
+@media (min-width: 720px){
+    header{
+        position: fixed;
+        width: 100%;
+    }
+
+    header .conteiner{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+}

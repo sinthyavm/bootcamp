@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faustina&family=Inter&family=Quicksand&family=Roboto&display=swap');
+body{
+    margin: 0px;
+    background: url(https://i.pinimg.com/564x/3a/ae/20/3aae201065833fe537f9f220c84ff79b.jpg);
+    background-size: 100vw 100vh;   
+}
+
+header{
+     margin: auto;
+     width: 1000px;
+     display: flex;
+     justify-content:space-evenly;
+}
+header .izq img,
+header .der img{
+     width: 150px;
+}
+header .cen img{
+     width: 800px;
+}
+main{
+     background: rgb(65, 68, 135);
+     margin: auto;
+     width: 1000px;
+     display: flex;
+ }
+main .izq img{
+     width: 300px;
+}
+main .der{
+    padding: 20px 40px;
+}
+main .der p{
+    font-family: 'Signika Negative', sans-serif;   
+    color: white;
+    font-size: 16px;
+}
+nav{
+    width: 1000px;
+    height: 30px;
+    margin: auto;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav ul li{    
+    list-style: none;
+    padding: 5px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav ul li a{    
+    background: linear-gradient(0deg, rgba(160, 120, 0, 0) 0%, rgba(160,120,0,1) 20%, rgba(225,216,96,1) 50%, rgba(154,104,21,1) 80%, rgba(160,120,0,0) 100%);
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: rgb(13, 17, 36);
+}
+.titulo{
+    position: relative;
+    left:4.2em;
+    bottom:-0.2em;
+    color: rgb(169, 147, 78);;
+    font-size: 33px;
+    font-family:sans-serif;
+}
+.texto{
+    padding: 0px 0px 0px 20px;
+}    
+p{
+    color: white;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 16px;
+   
+}
+i{
+    color: white;
+    font-size: 17px;
+}
+b{
+    color: white;
+    font-size: 16px;
+}

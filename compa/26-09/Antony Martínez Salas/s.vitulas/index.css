@@ -1,0 +1,201 @@
+* {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box; 
+}
+body {
+    background: rgb(71, 71, 71);
+    
+}
+main {
+    height: auto;
+    display: grid;
+    gap: 4px;
+    width: 100%;
+}
+.contenido {
+    width: 100%;
+    height: 40px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    background-image: url(images/fuego1.jpg);
+    background-position: center center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.contenido img {
+    height: 100%;
+}
+.contenido div {
+    background: none;
+    height: 95%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+.contenido div h1 {
+    background: none;
+    text-align: center;
+    font-size: 1.3em;
+    height: auto;
+    color: white;
+    font-style: italic;
+    text-shadow: 1px 2px rgb(49, 49, 49);
+}
+.cuerpo {
+    background: grey);
+}
+.cuerpo .noticia {
+ display: grid;
+ grid-template-columns:100%;
+ margin: 10px;
+ background: blue;
+}
+.cuerpo .noticia img {
+    width: 100%;
+}
+.cuerpo .noticia div {
+    height: auto;
+}
+.cuerpo .noticia div h2 {
+    background: rgba(228, 9, 9, 0.945);
+    color: #fff;
+    font-size: 1.5em;
+    padding: 5px 12px;
+    text-shadow: 1px 1px 2px blue;
+}
+.cuerpo .noticia div p {
+    background-color:none;
+    padding: 10px;
+    color: #fff;
+    text-align: justify;
+    font-size: 2em;
+}
+
+@media (min-width: 200px){
+    .contenido div h1 {
+        font-size: 1.5em;
+    }
+}
+@media (min-width: 400px) {
+    .contenido div h1 {
+        font-size: 2em;
+    }
+}
+
+@media (min-width: 500px) {
+    .contenido {
+        height: 100px;
+    }
+    .contenido div h1 {
+        font-size: 2.6em;
+    }
+    .cuerpo .noticia div h2 {
+        font-size: 2.4em;
+    }
+    .cuerpo .noticia div p {
+        font-size: 1.2em;
+    }
+}
+/*punto donde cambia color*/
+@media (min-width: 500px) {
+    .contenido {
+        height: 150px;
+        grid-template-columns: 30% 70%;
+        grid-template-rows: 100%;
+    }
+    .contenido div h1 {
+        font-size: 3.3em;
+        text-shadow: 8px 8px 10px #000;
+    }
+
+    .cuerpo .noticia {
+        grid-template-columns: 30% 70%;
+        background: none;
+    }
+
+    .cuerpo .noticia div h2 {
+        font-size: 1.4em;
+        background: none;
+    }
+
+    .cuerpo .noticia div p {
+        padding: 2px 10px;
+        font-size: 0.95em;
+    }
+}
+
+@media (min-width: 900px){
+    .contenidor {
+        height: 150px;
+    }
+    .contenido div h1 {
+        font-size: 4.1em;
+    }
+    .cuerpo .noticia div h2 {
+        font-size: 2em;
+    }
+    .cuerpo .noticia div p {
+        font-size: 1.1em;
+    }
+}
+
+@media (min-width: 1000px) {
+    .contenido {
+        height: 150px;
+    }
+
+    .contenido div h1 {
+        font-size: 4.5em;
+    }
+
+    .cuerpo .noticia div h2 {
+        font-size: 2em;
+    }
+
+    .cuerpo .noticia div p {
+        font-size: 1.2em;
+    }
+}
+
+@media (min-width: 1130px) {
+        .contenido {
+            height: 150px;
+        }      
+        .contenido .noticia div p {
+            font-size:1.4em;
+        }
+}
+@media (min-width: 1220px) {
+    .contenido {
+        height: 150px;
+    }
+    .contenido div h1 {
+        font-size: 5em;
+    }
+    .cuerpo .noticia div h2 {
+        font-size: 2.2em;
+    }
+    .cuerpo .noticia div p {
+        font-size: 1.5em;
+    }
+}
+
+@media (min-width: 1200px) {
+    .contenido {
+        height: 150px;
+    }
+
+    .contenido div h1 {
+        font-size: 6em;
+    }
+
+    .cuerpo .noticia div h2 {
+        font-size: 2.5em;
+    }
+
+    .cuerpo .noticia div p {
+        font-size: 1.8em;
+    }
+}

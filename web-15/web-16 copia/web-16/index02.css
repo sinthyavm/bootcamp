@@ -1,0 +1,58 @@
+
+#salida3 {
+    width: 500px;
+    height: 150px;
+    background: rgb(178, 255, 180);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+#cabecera {
+    width: 500px;
+    height: 80px;
+    background: rgb(111, 0, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    margin: auto;
+}
+.caja{
+    display: flex;
+}
+.cc{
+    width: 500px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+
+}
+
+form{
+    width: 400px;
+    height: 50vh;
+    background: rgb(68, 67, 67);
+    margin: auto;
+    text-align: center;
+}
+form label {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+#enviar {
+    background: rgb(25, 0, 255);
+    width: 150px;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#enviar:hover{
+    background: rgb(165, 39, 39);
+    color: yellow;
+
+
+}

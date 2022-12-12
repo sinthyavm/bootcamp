@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2? family= DynaPuff & family= Teko:wght@700 & display=swap');
+
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+header{
+    margin: auto;
+    width: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+}
+header.izq img,
+header.der img{
+    width: 10px;
+}
+header .cen img{
+    width: 500px;
+}
+main{
+    background: rgba(21, 191, 214, 0.72);
+    margin: auto;
+    width: 1000px;
+    display: flex;
+}
+main .cen img{
+    width: 400px;
+}
+main .der{
+    padding: 21px 20px;
+}
+main .der p{
+    
+    font-family:'DynaPuff', cursiva;
+    color: white;
+    font-size: 27px;
+}
+footer{
+    margin: auto;
+    width:1000px;
+}
+footer img{
+    width: 196px;
+}
+nav{
+    width: 1000px;
+    height: 30px;
+    margin: auto;
+    
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav ul li{
+    width: 300px;
+    list-style:none;
+    padding: 5px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav ul li a{
+    background: rgb(128, 0, 0);
+    padding: 15px;
+    color: white;
+
+}
+h1{
+    text-align: center;
+    font-size: 80px;
+    color: rgb(246, 255, 0);
+    margin: auto;
+    padding: 21px 20px;
+}
+nav.cen{
+    padding: 21px 20px;
+    
+}
+nav .izq img{
+    width: 90px;
+}
+nav .cen p{
+    background: rgba(21, 191, 214, 0.72);
+    font-size: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 21px 20px;
+}
+nav .cen img{
+    margin: auto;
+    width:1000px;
+}
+
+    

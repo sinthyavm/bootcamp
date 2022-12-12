@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>MY Formulario</title>
+    <link rel="stylesheet" href="formulaio.css">
+    <link rel="icon" href="descarga.png">
+</head>
+<body>
+    <main>
+        <div class="logo">
+        <img src="descarga.png" width="50px">
+        </div>
+        <h1>Formulario Inicial</h1> <hr>
+        <form action="https://formspree.io/f/xzbwalza"method="POST">
+        <br>
+        <hr> <label for="nombre">Nombre:</label> &nbsp&nbsp&nbsp
+        <input name="nombre" id="nombre" type="text" >
+        <br><br>
+        <hr> <label for="apellido">Apellido:</label>&nbsp&nbsp&nbsp&nbsp
+        <input name="apellido" id="apellido" type="text" >
+        <br><br>
+        <hr> <label for="email">Email</label>
+        <input name="email" id="email" type="email" required>
+        <br><br>
+
+        <label for="Fecha de nacimiento">Fecha de nacimiento</label>
+        <input name="frchnac" id="frchnac" type="date">
+        <br><br>
+
+        <label for="Sexo">Sexo</label>
+        <label for="Masculino">Hombre</label>
+        <input name="Sexo" id="Masculino" type="radio" value="Hombre" checked>
+        </label>
+        <label for="Femenino">Mujer</label>
+        <input name="Sexo" id="Femenino" type="radio" value="Mujer" checked>
+        </label>
+        <br><br>
+
+
+        <hr> <label for="distrito">Distrito</label>
+        <select name="distrito" id="distrito">
+            <option value="la victoria">La Victoria</option>
+            <option value="San Juan de Lurigancho">San Juan de Lurigancho</option>
+            <option value="Surco">Surco</option>
+            <option value="Callao">Callao</option>
+            <option value="San luis">San luis</option>
+            <option value="Chorillos">Chorillos</option>
+        </select>
+        <br><br>
+        <label>Hobbies</label><br>
+        <div class="hobbies">
+            <label for="deportes">
+                <input type="chckbok" class="check" name="encontro" id="deportes"> Deportes
+                 </label>
+
+            <label for="cine">
+                <input type="chckbok" class="check" name="encontro" id="cine"> Cine
+                </label>
+            <label for="teatro">
+                <input type="chckbok" class="check" name="encontro" id="teatro"> Teatro
+                </label>
+            <label for="viajes">
+                <input type="chckbok" class="check" name="encontro" id="viajes"> Viajes
+                </label>
+
+            <label for="en-familia">
+                <input type="chckbok" class="check" name="encontro" id="en-familia"> En Familia
+            </label>
+
+            <label for="con-amigos">
+                <input type="chckbok" class="check" name="encontro" id="con-amigos"> Con Amigos
+            </label>
+        </div>
+<br>
+
+<br><br>
+
+
+        <hr> <label for="pais">Pais</label>
+        <input name="pais" id="pais" type="text" >
+        <br><br>
+        <hr> <label for="cuidad">Cuidad</label>
+        <input name="cuidad" id="cuidad" type="text" >
+        <br><br>
+        <hr> <label for="sexo">Sexo</label>
+        <input name="sexo" id="sexo" type="text" >
+        <br><br>
+        <hr> <label for="Edad">Edad</label>
+        <input name="Edad" id="Edad" type="text" >
+        <br><br>
+
+        <label for="comentario">Ingrese un Comentario</label>
+        <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
+        <br><br>
+        <input type="submit" id="boton" value="Enviar">
+
+        </form>
+    </main>
+</body>
+</html>

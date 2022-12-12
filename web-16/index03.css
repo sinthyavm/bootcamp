@@ -1,0 +1,57 @@
+#salida1 {
+    background: rgb(255, 197, 197);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+
+#salida2 {
+    background: rgb(147, 172, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+
+#salida3 {
+    background: rgb(178, 255, 180);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+
+#salida4 {
+    background: violet;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+
+#salida5 {
+    background: rgb(190, 235, 30);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+
+#cabecera {
+    width: 300px;
+    height: 80px;
+    background: rgb(190, 190, 190);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    margin: auto;
+}
+.caja{
+    display: flex;
+}
+.cc{
+    width: 500px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+
+}

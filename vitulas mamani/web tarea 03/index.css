@@ -1,0 +1,96 @@
+body{
+    background-image: url(images/fondo.jpg);
+    background-size: 120%;
+    animation: movimiento 15s infinite alternate;
+}
+@keyframes movimiento{
+    from{
+        background-position: top left;
+    }
+    to{
+        background-position: top right;
+    }
+}
+header{
+    width: 1000px;
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    flex-direction: column;
+    /*width: 1000px;
+    margin: auto;
+    padding: 10px;
+    height: 110px; */
+}
+header .cen img{
+    height: 310px;
+}
+.cabecera{
+    display: flex;
+    justify-content: space-evenly;
+}
+main{
+    background: rgb(110, 1, 110);
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    color: white;
+    font-size: 30px;
+    font-family: 'Inconsolata', monospace;
+}
+main .izq img{
+    width: 250px;
+    padding-top: 50px;
+}
+main .der{
+    padding: 10px 10px 10px 15px;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+}
+footer{
+    width: 1000px;
+    margin: auto;
+}
+footer .galeria{
+    display: flex;
+    width: 1000px;
+    justify-content: space-evenly;
+}
+footer .galeria img{
+    width: 200px;
+    width: 170px;
+}
+footer .menu .boton{
+    margin: 10px 3px;
+    color: white;
+    background: red;
+    font-size: 20px;
+    padding: 5px;
+    width: 150px;
+    border: 2px solid yellow;
+    border-radius: 20px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+footer .menu{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+}
+footer .menu .boton:hover{
+    background: rgba(200, 0, 0, 0.864);
+    color: yellow;
+}
+footer .galeria1 img{
+    width: 1000px;
+}
+footer .galeria2 img{
+    width: 1000px;    
+}
+footer .galeria3 img{
+    width: 1000px;    
+}
+footer .galeria4 img{
+    width: 1000px;
+}

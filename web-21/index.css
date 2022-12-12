@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(182, 182, 182);
+}
+#pagina-global{
+    margin:auto;
+    position: relative;
+    top:50px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;     
+    background: rgb(64, 64, 64);
+    width: 600px;
+    height: 770px;
+    border-radius: 20px;
+}
+#pagina1{
+    background: rgb(144, 144, 144);
+    padding: 25px 10px 10px 10px;
+    width: 170px;
+    height: 250px;
+    border-top :3px solid rgb(255, 149, 0) ;
+    border-left :3px solid rgb(255, 149, 0) ;
+    border-bottom :3px solid rgb(255, 149, 0);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+#pagina2{
+    background: rgb(102, 0, 0);
+    padding: 15px;
+    width: 350px;
+    height: 250px;
+    border-top :3px solid rgb(255, 149, 0) ;
+    border-right:3px solid rgb(255, 149, 0) ;
+    border-bottom :3px solid rgb(255, 149, 0) ;
+    border-top-right-radius:20px;
+    border-bottom-right-radius: 20px;
+    font-style: italic;
+
+}
+#nivel2{
+    box-sizing: border-box;
+    margin: auto;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    padding: 5px;
+}
+form{
+    background: rgb(0, 66, 165);
+    text-align:center;
+    font-size: 24px;    
+}
+#i{
+    width: 40px;
+}
+#cabecera{
+    text-align: center;
+}
+#sub{
+    display:grid;
+    grid-template-columns: auto auto;
+    text-align: right;   
+    font-size: 20px;
+}
+#sub div{
+    padding-right: 50px;
+}
+#enviar{
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 8px;
+}
+.autor{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    text-align: right;
+    text-shadow: 2px 2px 3px black;
+}

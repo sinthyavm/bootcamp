@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Cuprum:ital@1&family=Edu+NSW+ACT+Foundation&family=Exo:ital,wght@1,100&family=Merienda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,400;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+footer {
+    background: #1E5799;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px 0 50px;
+}
+
+footer img {
+    width: 170px;
+}
+
+footer h2 {
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-weight: 300;
+    font-size: 22px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+section {
+    min-height: calc(100vh - 60px);
+    box-sizing: border-box;
+}
+
+#menu {
+    padding-top: calc((100vh - 460px) / 2);
+    padding-left: calc((100vw - 700px) /2);
+    background: -webkit-linear-gradient(top, #1e5799 4%, #016cc4 10%, #207cca 56%, #207cca 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #1e5799 4%, #016cc4 10%, #207cca 56%, #207cca 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 200px 200px;
+    grid-template-areas:
+        "about about service service"
+        "about about mosaic contac";
+}
+
+#menu .nosotros {
+    grid-area: about;
+    background: red;
+}
+
+#menu .servicios {
+    grid-area: service;
+    background: green;
+}
+
+#menu .mosaicos {
+    grid-area: mosaic;
+    background: yellow;
+}
+
+#menu .contacto {
+    grid-area: contac;
+    background: violet;
+}
+
+#menu .titulo {
+    background: black;
+    /* display: grid;
+    justify-items: center;
+    align-items: center; */
+    height: 100%;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#menu .titulo a {
+    text-decoration: none;
+    color: white;
+}
+
+#menu .titulo .front {
+    color: white;
+    background: black;
+    height: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: all 0.6s;
+}
+
+#menu .titulo .back {
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+#menu .nosotros .front {
+    background-image: url(images/profile.png);
+    background-size: cover;
+    background-position: top center;
+}
+
+#menu .servicios .front {
+    background-image: url(images/work-01.png);
+    background-size: cover;
+    background-position: top center;
+}
+
+#menu .mosaicos .front {
+    background-image: url(images/work-02.png);
+    background-size: cover;
+    background-position: top center;
+}
+
+#menu .contacto .front {
+    background-image: url(images/work-03.png);
+    background-size: cover;
+    background-position: top center;
+}
+
+#menu .titulo:hover .front {
+    margin-top: -100%;
+}
+
+#menu .servicios:hover .front {
+    margin-top: -50%;
+}
+
+
+
+#nosotros {
+    padding-bottom: calc((100vh - 460px) / 2);
+    padding-left: calc((100vw - 700px) /2);
+    background: none;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    display: grid;
+    grid-template-columns: 800px;
+    grid-template-rows: 70px 70px 500px;
+    grid-template-areas: 
+    "etiqueta"
+    "parrafo"
+    "porta";
+}
+#nosotros .TITULO {
+    background: none;
+    background-image: url(images/nosotros.svg);
+    background-size: 180px;
+    background-position: top left;
+    background-repeat: no-repeat;
+    grid-area: etiqueta;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+}
+#nosotros .TITULO h1 {
+    background: none;
+    display: inline;
+    color: #1E5799;
+}
+
+#nosotros p {
+    background: none;
+    grid-area: parrafo;
+    display: grid;
+    text-align: center;
+}
+#nosotros .parrafo {
+    background-image: url(images/epcon_mazamitla_ol.jpg);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    width: 100%;
+    grid-area: porta;
+    display: grid;
+    gap: 0;
+    grid-template-areas: 
+    "especializado"
+    "texto"
+    "boton";
+    grid-template-columns: 800px;
+    grid-template-rows: 20px 120px 30px;
+    align-content: end;
+    justify-items: center;
+}
+#nosotros .parrafo h3 {
+    color: white;
+    background: rgb(10, 10, 180);
+    width: 100%;
+    grid-area: especializado;
+    text-align: center;
+    
+}
+#nosotros .parrafo p {
+    color: white;
+    background: none;
+    width: 100%;
+    grid-area: texto;
+    text-align: center;
+    padding:10px 20px;
+    font-size: 16px;
+}
+#nosotros .parrafo a {
+    color: white;
+    background: rgb(170, 14, 14);
+    width: 50px;
+    grid-area: boton;
+    display: inline;
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+#servicios {
+    padding-top: calc((100vh - 460px) / 2);
+    padding-bottom: calc((100vh - 460px) / 2);
+    background: none;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    display: grid;
+    gap:0;
+    grid-template-columns: 370px 370px 370px;
+    grid-template-rows: 350px 350px;
+    justify-content: space-evenly;
+}
+#servicios .icon {
+    background: none;
+    display: grid;
+    justify-items: center;
+    text-align: center;
+    border: 2px solid rgb(136, 134, 134);
+    margin: 10px;
+}
+#servicios .icon img {
+    height: 60px;
+    margin: 10px;
+}
+#servicios h1{
+    font-size: 16px;
+    font-weight: 700;
+}
+#servicios .icon p{
+    color: gray;
+    text-align: justify;
+    padding: 0 20px;
+}

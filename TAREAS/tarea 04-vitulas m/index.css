@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: black;
+}
+.franja{
+    margin: auto;
+    width: 900px;
+    display: flex;
+    justify-content: center;
+}
+.franja img{
+    width: 900px;
+}
+.menu{
+    padding: 7px 0 7px 0;
+    background: red;
+    margin: auto;
+    width: 900px;
+    position: sticky;
+    left: 0;
+    top: 0;
+}
+.boton{
+    color: white;
+    font-size: 17px;
+    background: none;
+    border: none;
+    padding: 2px 15px;
+}
+.personajes{
+    background: rgb(173, 172, 172);
+    width: 900px;
+    margin: auto;
+    
+}
+.personajes .titulo{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    color: brown;
+    padding: 5px 15px 0px 20px ;
+}
+.personajes .contenido{
+    margin: auto;
+    width: 900px;
+    display: flex;
+    justify-content: center;
+}
+.personajes .contenido img{
+    width: 180px;
+    padding: 10px 15px 5px 20px;
+}
+.personajes .contenido p{
+    font-size: 17px;
+    margin: 15px 35px 0px 5px;
+}
+.franja img{
+    width: 900px;
+    margin: auto;
+}
+.fila{
+    scroll-margin-top: 50px;
+}
+.menu .boton:hover{
+    color: blue;
+}
+body .menu .boton:hover{
+    background: yellow;
+}
+.menu .boton{
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+.franja2 img{
+    width: 1040px;
+    height: 300px;
+    justify-content: center;
+}

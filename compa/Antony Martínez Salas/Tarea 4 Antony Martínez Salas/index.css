@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+}
+
+body {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-color: #d72229;
+}
+header {
+    width: 80%;
+    height: 50px;
+    background: #9c9b53;
+    color: #fff;
+    position: relative;
+    /*position: fixed;*/
+    /*margin-top: -50px;*/
+    display: flex;
+    justify-content: space-around;
+   /* opacity: 1;*/
+}
+
+header section {
+    position: absolute;
+    left: 0%;
+    width: 20%;
+    height: auto;
+    /*background: #0602df;*/
+    margin: 0%;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+}
+header section img {
+    width: 120%;
+    z-index: 100;
+    position: relative;
+    margin-top: -50px;
+    /*background: #333;*/
+}
+
+header nav {
+    position: absolute;
+    right: 1%;
+    width: 80%;
+    height: 100%;
+    background: #9c9b53;
+    margin: 0%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+header nav div {
+    /*background-color: aqua;*/
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+
+}
+header nav div a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    width: 15%;
+    height: 100%;
+    display: flex;
+    align-items:flex-end;
+    /*background: red;*/
+}
+header nav div a img {
+    height: 100%;
+}
+header nav a:hover {
+    background: rgb(81, 126, 81);
+    scale: 1.15;
+}
+header nav .primero {
+    /*background: #fff;*/
+    justify-content: space-between;
+}
+header nav .primero .datos {
+    display: flex;
+    justify-content: space-between;
+    /*background: blue;*/
+    height: 100%;
+    width: 60%;
+}
+header nav .primero .redes{
+    display: flex;
+    justify-content: space-between;
+    justify-items: left;
+    flex-flow: row wrap;
+    /*background: rgb(34, 106, 153);*/
+    height: 100%;
+    width: 20%;
+
+}
+
+article {
+    /*width: 100vw;*/
+    width: 80%;
+    background: rgba(0, 0, 0, 0.5);
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+article #conteiner {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 500px;
+    background: #fff;
+    overflow: hidden;
+}
+
+article #conteiner ul {
+    display: flex;
+    width: 300%;
+    padding: 0;
+    animation: slide 9s infinite alternate;
+}
+
+article #conteiner ul li {
+    list-style: none;
+    width: 100%;
+}
+
+article #conteiner ul li img {
+    width: 100%;
+}
+@keyframes slide {
+    0% {
+        margin-left: 0%;
+    }
+
+    16.6% {
+        margin-left: 0%;
+    }
+
+    33.2% {
+        margin-left: -100%;
+    }
+
+    66.4% {
+        margin-left: -100%;
+    }
+
+    83% {
+        margin-left: -200%;
+    }
+
+    100% {
+        margin-left: -200%;
+    }
+}
+article #abajo {
+    background: yellowgreen;
+    width: 100%;
+    display: flex;
+}
+article #abajo .izq {
+    width: 55%;
+    background: #fff;
+}
+article #abajo .izq img {
+    width: 100%;
+}
+article #abajo .der {
+    width: 45%;
+    background: #fff;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+article #abajo .der img {
+    width: 100%;
+}
+article #abajo .der p {
+    width: 90%;
+    text-align: justify;
+    margin-top: 5px;;
+    font-size: 0.9em;
+}
+article #medio {
+   width: 40%;
+
+   position: fixed;
+   margin-top: -20%;
+   margin-left: 39.5%;
+   /*background: yellow;*/
+}
+article #medio img {
+    width: 100%;
+    position: relative;
+    margin-left: 30% ;
+}

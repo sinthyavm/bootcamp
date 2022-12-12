@@ -1,0 +1,8 @@
+body{
+    background: rgb(243, 5, 136);
+}
+#contenedor{
+    width: 70%;
+    margin: 0 auto;
+    height: 500px;
+}

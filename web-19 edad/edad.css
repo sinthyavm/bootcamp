@@ -1,0 +1,91 @@
+body{
+    background-color: rgb(16, 175, 122);
+}
+
+#cabecera{
+    width: 400px;
+    height: 100px;
+    background: rgb(98, 98, 85);
+    text-align: center;
+    margin: auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 5px black;
+}
+#cabecera h1{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+#salida1{
+    box-sizing: border-box;
+    background: rgb(95, 95, 95);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: left;
+    padding: 0 30px 0 30px;
+    color:white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+/* .caja{
+    display:flex;
+} */
+.cc{
+    width: 400px;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    width: 400px;
+    background: rgb(125, 125, 125);
+    margin: auto;
+    text-align: center;
+}
+form label{
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+}
+form .dato{
+    box-shadow: 2px 2px 2px black;
+    border: none;
+    height: 20px;
+}
+select{
+    box-shadow: 2px 2px 2px black;
+    border: none;
+    height: 23px;
+}
+.morado{
+    color:rgb(116, 0, 225); 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+.sub{
+    color:red;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+input{
+    width: 70px;
+    text-align: center;
+}
+
+#fechnac{
+    width: 100px;
+}
+
+hr{
+   
+    border-color: rgb(226, 8, 8) ;
+
+
+
+}

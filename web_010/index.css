@@ -1,0 +1,43 @@
+body{
+    background: gray;
+}
+main > *{
+    color: white;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: rgb(250, 8, 8);
+}
+main{
+    display: grid;
+    gap: 10px;
+    grid-template-areas:
+    "header"
+    "izquierda"
+    "contenido"
+    "derecha"
+    "footer";
+}
+header{
+    grid-area: header;
+}
+aside:first-of-type{
+    grid-area: izquierda;
+}
+article{
+    grid-area: contenido;
+}
+aside:last-of-type{
+    grid-area: derecha;
+}
+footer{
+    grid-area: footer;
+}
+@media (min-width:600px){
+    main{
+        grid-template-areas:
+        "header header header"
+        "izquierda contenido derecha"
+        "footer footer footer";
+    }
+}

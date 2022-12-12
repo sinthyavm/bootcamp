@@ -1,0 +1,167 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background: rgb(172, 216, 216);
+}
+main{
+    display: grid;
+    gap: 5px;
+    width: 100%;
+}
+header{
+    width: 100%;
+    height: 30px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    background-image: url(images/fuego1.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+header img{
+    height: 100%;
+}
+header div{
+    height: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+header div h1{
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    text-shadow: 1px 1px 6px black;
+    font-style: italic;
+}
+.contenido{
+    background: rgb(128, 111, 111);
+}
+.contenido .caja{
+    display: grid;
+    margin: 5px;
+    background: rgb(170, 143, 143);
+    grid-template-columns: 100%;
+}
+.contenido .caja img{
+    width: 100%;
+}
+.contenido .caja div h2{
+    color: white;
+    font-size: 13px;
+    padding: 5px;
+    text-shadow: 1px 1px 6px black;
+}
+.contenido .caja div p{
+    color: white;
+    text-align: justify;
+    font-size: 12px;
+    padding: 5px;
+}
+@media(min-width:700px){
+    header{
+        height: 200px;
+        grid-template-columns: 40% 60%;
+        grid-template-rows: 100%;
+    }
+    header div h1{
+        font-size: 24px;
+        text-shadow: 6px 6px 12px black;
+    }
+    .contenido .caja{
+        grid-template-columns: 40% 60%;
+    }
+    .contenido .caja div h2{
+        font-size: 16px;
+    }
+    .contenido .caja div p{
+        font-size: 11px;
+        padding: 5px;
+    }
+}
+@media(min-width:975px){
+    header{
+        height: 200px;
+        grid-template-columns: 40% 60%;
+        grid-template-rows: 100%;
+    }
+    header div h1{
+        font-size: 32px;
+        text-shadow: 6px 6px 12px black;
+    }
+    .contenido .caja{
+        grid-template-columns: 40% 60%;
+    }
+    .contenido .caja div h2{
+        font-size: 22px;
+    }
+    .contenido .caja div p{
+        font-size: 14px;
+        padding: 5px;
+    }
+}
+@media(min-width:1000px){
+    header{
+        height: 200px;
+        grid-template-columns: 40% 60%;
+        grid-template-rows: 100%;
+    }
+    header div h1{
+        font-size: 34px;
+        text-shadow: 6px 6px 12px black;
+    }
+    .contenido .caja{
+        grid-template-columns: 40% 60%;
+    }
+    .contenido .caja div h2{
+        font-size: 27px;
+    }
+    .contenido .caja div p{
+        font-size: 18px;
+        padding: 5px;
+    }
+}
+@media(min-width:1475px){
+    header{
+        height: 200px;
+        grid-template-columns: 40% 60%;
+        grid-template-rows: 100%;
+    }
+    header div h1{
+        font-size: 55px;
+        text-shadow: 6px 6px 12px black;
+    }
+    .contenido .caja{
+        grid-template-columns: 40% 60%;
+    }
+    .contenido .caja div h2{
+        font-size: 35px;
+    }
+    .contenido .caja div p{
+        font-size: 25px;
+        padding: 5px;
+    }
+}
+@media(min-width:1775px){
+    header{
+        height: 200px;
+        grid-template-columns: 40% 60%;
+        grid-template-rows: 100%;
+    }
+    header div h1{
+        font-size: 70px;
+        text-shadow: 6px 6px 12px black;
+    }
+    .contenido .caja{
+        grid-template-columns: 40% 60%;
+    }
+    .contenido .caja div h2{
+        font-size: 45px;
+    }
+    .contenido .caja div p{
+        font-size: 32px;
+        padding: 5px;
+    }
+}

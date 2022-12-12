@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+body {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-color: white
+}
+header {
+    width: 1065px;
+    height: 50px;
+    background: rgba(252, 255, 85, 0.849);
+    font-weight: bold;
+    color: black;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+
+header section {
+    position: absolute;
+    left: 0%;
+    width: 20%;
+    height: auto;
+    margin: 0%;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+}
+header section img {
+    width: 300px;
+    z-index: 100;
+    position: absolute;
+    margin-top: -65px;
+}
+
+header nav {
+    position: absolute;
+    right: 1%;
+    width: 800px;
+    height: 100%;
+    margin: 0%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+header nav div {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+
+}
+header nav div a {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    width: 15%;
+    height: 100%;
+    display: flex;
+    align-items:flex-end;
+}
+header nav div a img {
+    height: 100%;
+}
+header nav .informacion {
+    justify-content: space-between;
+}
+header nav .informacion .datos {
+    display: flex;
+    height: 100%;
+    width: 60%;
+}
+header nav .informacion .redes{
+    display: flex;
+    justify-content: stretch;
+    justify-items: left;
+    flex-flow: row wrap;
+    height: 100%;
+    width: 30%;
+}
+article {
+    width: 1065px;
+    background: rgba(0, 0, 0, 0.5);
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+article #conteiner {
+    background: white;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 550px;
+    overflow: hidden;
+}
+
+article #conteiner ul {
+    display: flex;
+    width: 300%;
+    padding: 0;
+    animation: slide 5s infinite alternate;
+}
+
+article #conteiner ul li {
+    list-style: none;
+    width: 100%;
+}
+
+article #conteiner ul li img {
+    width: 100%;
+}
+@keyframes slide {
+    0% {
+        margin-left: 0%;
+    }
+
+    16.6% {
+        margin-left: 0%;
+    }
+
+    33.2% {
+        margin-left: -100%;
+    }
+
+    66.4% {
+        margin-left: -100%;
+    }
+
+    83% {
+        margin-left: -200%;
+    }
+
+    100% {
+        margin-left: -200%;
+    }
+}
+article #medio {
+   width: 300px;
+   height: 300px;
+   position: fixed;
+   margin-top: -350px;
+   margin-left: 600px;
+}
+article #medio img {
+    width: 600px;
+    position: relative;
+    margin-left: 5% ;
+}
+article div {
+    width: 100%;
+    height: 400px;
+}
+.descripcion{
+    background: white;
+    display: flex;
+}
+
+.descripcion #pollos{
+    width: 532px;
+}
+.polleroder{
+    width: 532px;
+}
+.descripcion .polleroder #chios{
+    height: 190px;
+    display: block;
+    margin: auto;
+}
+.descripcion .polleroder p{
+    text-align: center;
+    font-size: 16px;
+}

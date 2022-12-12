@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>MY Formulario</title>
+    <link rel="stylesheet" href="formulario.css">
+    <link rel="icon" href="descarga.png">
+</head>
+<body>
+    <main>
+        <div class="login form">
+        <h1>Registrese Aquí</h1> <hr>
+        <form action="https://formspree.io/f/xzbwalza"method="POST">
+        <br>
+        <hr> <label for="nombre">Nombre:</label> &nbsp&nbsp&nbsp
+        <input name="nombre" id="nombre" type="text" >
+        <br><br>
+        <hr> <label for="apellido">Apellido:</label>&nbsp&nbsp&nbsp&nbsp
+        <input name="apellido" id="apellido" type="text" >
+        <br><br>
+        <hr> <label for="email">Email:</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <input name="email" id="email" type="email" required>
+        <br><br>
+
+        <hr> <label for="sexo">Sexo:</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <input name="sexo" id="sexo" type="text" >
+        <br><br>
+        <hr> <label for="Edad">Edad:</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <input name="Edad" id="Edad" type="text" >
+        <br><br>
+
+
+        <label for="Fecha de nacimiento">Fecha de nacimiento:</label>
+        <input name="frchnac" id="frchnac" type="date">
+        <br><br>
+
+        <label for="Sexo">Sexo</label>
+        <label for="Masculino">Hombre</label>
+        <input name="Sexo" id="Masculino" type="radio" value="Hombre" checked>
+        </label>
+        <label for="Femenino">Mujer</label>
+        <input name="Sexo" id="Femenino" type="radio" value="Mujer" checked>
+        </label>
+        <br><br>
+
+
+        <label for="comentario">Ingrese un Comentario</label>
+        <br><br>
+        <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
+        <br><br>
+        <input type="submit" id="boton" value="Enviar">
+
+        </form>
+    </main>
+</body>
+</html>
